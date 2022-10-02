@@ -23,6 +23,7 @@ public class Assignment05 {
         next = scan.nextLine();
         Voter v3 = new Voter(next);
         System.out.println("Voter " + Voter.getnVoters() + " created.");
+        //System.out.println(Integer.toBinaryString(name));
         
         System.out.println(v1);
         System.out.println(v2);
